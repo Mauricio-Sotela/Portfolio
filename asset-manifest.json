@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Mauricio-Sotela/Portfolio/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Mauricio-Sotela/Portfolio/static/js/main.abe8c484.chunk.js",
+    "main.js.map": "/Mauricio-Sotela/Portfolio/static/js/main.abe8c484.chunk.js.map",
+    "runtime-main.js": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.a87879cc.js",
+    "runtime-main.js.map": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.a87879cc.js.map",
+    "static/css/2.cc5754b7.chunk.css": "/Mauricio-Sotela/Portfolio/static/css/2.cc5754b7.chunk.css",
+    "static/js/2.ab348626.chunk.js": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js",
+    "static/js/2.ab348626.chunk.js.map": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js.map",
+    "index.html": "/Mauricio-Sotela/Portfolio/index.html",
+    "precache-manifest.64367b765107fffd533dbdc44ee9a488.js": "/Mauricio-Sotela/Portfolio/precache-manifest.64367b765107fffd533dbdc44ee9a488.js",
+    "service-worker.js": "/Mauricio-Sotela/Portfolio/service-worker.js",
+    "static/css/2.cc5754b7.chunk.css.map": "/Mauricio-Sotela/Portfolio/static/css/2.cc5754b7.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "/Mauricio-Sotela/Portfolio/static/css/main.b100e6da.chunk.css.map",
+    "static/js/2.ab348626.chunk.js.LICENSE.txt": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a87879cc.js",
+    "static/css/2.cc5754b7.chunk.css",
+    "static/js/2.ab348626.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.abe8c484.chunk.js"
+  ]
+}
