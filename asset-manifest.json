@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Mauricio-Sotela/Portfolio/static/css/main.b100e6da.chunk.css",
-    "main.js": "/Mauricio-Sotela/Portfolio/static/js/main.abe8c484.chunk.js",
-    "main.js.map": "/Mauricio-Sotela/Portfolio/static/js/main.abe8c484.chunk.js.map",
-    "runtime-main.js": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.a87879cc.js",
-    "runtime-main.js.map": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.a87879cc.js.map",
+    "main.css": "/Mauricio-Sotela/Portfolio/static/css/main.4c36d97b.chunk.css",
+    "main.js": "/Mauricio-Sotela/Portfolio/static/js/main.c40ef3da.chunk.js",
+    "main.js.map": "/Mauricio-Sotela/Portfolio/static/js/main.c40ef3da.chunk.js.map",
+    "runtime-main.js": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.94280f07.js",
+    "runtime-main.js.map": "/Mauricio-Sotela/Portfolio/static/js/runtime-main.94280f07.js.map",
     "static/css/2.cc5754b7.chunk.css": "/Mauricio-Sotela/Portfolio/static/css/2.cc5754b7.chunk.css",
-    "static/js/2.ab348626.chunk.js": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js",
-    "static/js/2.ab348626.chunk.js.map": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js.map",
+    "static/js/2.1c3e6eaa.chunk.js": "/Mauricio-Sotela/Portfolio/static/js/2.1c3e6eaa.chunk.js",
+    "static/js/2.1c3e6eaa.chunk.js.map": "/Mauricio-Sotela/Portfolio/static/js/2.1c3e6eaa.chunk.js.map",
     "index.html": "/Mauricio-Sotela/Portfolio/index.html",
-    "precache-manifest.64367b765107fffd533dbdc44ee9a488.js": "/Mauricio-Sotela/Portfolio/precache-manifest.64367b765107fffd533dbdc44ee9a488.js",
+    "precache-manifest.271aa0b0941fb74b7118dad8c07cfec0.js": "/Mauricio-Sotela/Portfolio/precache-manifest.271aa0b0941fb74b7118dad8c07cfec0.js",
     "service-worker.js": "/Mauricio-Sotela/Portfolio/service-worker.js",
     "static/css/2.cc5754b7.chunk.css.map": "/Mauricio-Sotela/Portfolio/static/css/2.cc5754b7.chunk.css.map",
-    "static/css/main.b100e6da.chunk.css.map": "/Mauricio-Sotela/Portfolio/static/css/main.b100e6da.chunk.css.map",
-    "static/js/2.ab348626.chunk.js.LICENSE.txt": "/Mauricio-Sotela/Portfolio/static/js/2.ab348626.chunk.js.LICENSE.txt"
+    "static/css/main.4c36d97b.chunk.css.map": "/Mauricio-Sotela/Portfolio/static/css/main.4c36d97b.chunk.css.map",
+    "static/js/2.1c3e6eaa.chunk.js.LICENSE.txt": "/Mauricio-Sotela/Portfolio/static/js/2.1c3e6eaa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a87879cc.js",
+    "static/js/runtime-main.94280f07.js",
     "static/css/2.cc5754b7.chunk.css",
-    "static/js/2.ab348626.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.abe8c484.chunk.js"
+    "static/js/2.1c3e6eaa.chunk.js",
+    "static/css/main.4c36d97b.chunk.css",
+    "static/js/main.c40ef3da.chunk.js"
   ]
 }
