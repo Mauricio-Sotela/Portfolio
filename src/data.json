@@ -1,0 +1,61 @@
+{
+  "card": [
+    {
+      "id": "01",
+      "icon": "fas fa-pencil-ruler",
+      "title": "third",
+      "description": "Herbert Schildt",
+      "technology": "Java",
+      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
+      "tools": "Herbert Schildt",
+      "tools_items": [
+        "Balsamiq Mockups",
+        "Figma",
+        "Invision",
+        "Marvel",
+        "Pen & Paper",
+        "Sketch",
+        "Webflow",
+        "Zeplin"
+      ]
+    },
+    {
+      "id": "02",
+      "icon": "fas fa-code",
+      "title": "third",
+      "description": "Herbert Schildt",
+      "technology": "Java",
+      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
+      "tools": "Herbert Schildt",
+      "tools_items": [
+        "Balsamiq Mockups",
+        "Figma",
+        "Invision",
+        "Marvel",
+        "Pen & Paper",
+        "Sketch",
+        "Webflow",
+        "Zeplin"
+      ]
+    },
+    {
+      "id": "03",
+      "icon": "fas fa-book",
+      "title": "third",
+      "description": "Herbert Schildt",
+      "technology": "Java",
+      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
+      "tools": "Herbert Schildt",
+      "tools_items": [
+        "Balsamiq Mockups",
+        "Figma",
+        "Invision",
+        "Marvel",
+        "Pen & Paper",
+        "Sketch",
+        "Webflow",
+        "Zeplin"
+      ]
+    }
+  ]
+}
