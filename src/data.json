@@ -1,10 +1,10 @@
 {
-  "card": [
+  "skills": [
     {
       "id": "01",
       "icon": "fas fa-pencil-ruler",
-      "title": "third",
-      "description": "Herbert Schildt",
+      "title": "first",
+      "description": "Sophie",
       "technology": "Java",
       "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
       "tools": "Herbert Schildt",
@@ -21,8 +21,8 @@
     },
     {
       "id": "02",
-      "icon": "fas fa-code",
-      "title": "third",
+      "icon": "fas fa-paw",
+      "title": "second",
       "description": "Herbert Schildt",
       "technology": "Java",
       "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
@@ -40,7 +40,7 @@
     },
     {
       "id": "03",
-      "icon": "fas fa-book",
+      "icon": "fas fa-car",
       "title": "third",
       "description": "Herbert Schildt",
       "technology": "Java",
@@ -56,6 +56,29 @@
         "Webflow",
         "Zeplin"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "01",
+      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "category": "sports",
+      "description": "Vancouver's tower crane rental service and support leader since 1974.",
+      "bg_img": "https://mattfarley.ca/img/projects/awg2020.png"
+    },
+    {
+      "id": "02",
+      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "category": "food",
+      "description": "Results-oriented, responsive and flexible full service civil engineering firm.",
+      "bg_img": "https://img.freepik.com/free-vector/sport-background-with-abstract-shapes_52683-18504.jpg?size=626&ext=jpg"
+    },
+    {
+      "id": "03",
+      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "category": "holidays",
+      "description": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "bg_img": "https://image.freepik.com/vector-gratis/fondo-deporte-abstracto-estilo-plano_23-2148216726.jpg"
     }
   ]
 }

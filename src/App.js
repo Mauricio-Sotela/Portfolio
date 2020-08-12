@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Button from "./components/Button";
 import Data from "./data.json";
 import Skill from "./components/Skils";
+import Projects from "./components/Projects";
+import ProjectContainer from "./components/ProjectContainer";
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -33,13 +35,10 @@ export default class App extends Component {
       );
     }
   };
- 
 
   render = () => (
-    
     <div>
-      
-      <Button 
+      <Button
         title="mauricio"
         bgColor="white"
         hoverColor="black"
@@ -47,7 +46,17 @@ export default class App extends Component {
         to="https://github.com/Mauricio-Sotela"
       />
 
-      <Skill data={Data}/>
+      <Button
+        title="Sophie"
+        bgColor="orange"
+        hoverColor="green"
+        textColor="white"
+        to="https://google.com"
+      />
+
+      <Skill data={Data} />
+
+      <ProjectContainer data={Data}  />
     </div>
   );
 }

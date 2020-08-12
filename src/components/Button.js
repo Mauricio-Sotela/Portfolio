@@ -4,11 +4,9 @@ export default function Button(props) {
   const [bgColor, setbgColor] = useState(props.bgColor);
   const [textColor, settextColor] = useState(props.textColor);
 
-
-
   const over = () => {
     setbgColor(props.hoverColor);
-    settextColor(props.bgColor);
+    settextColor(props.textColor);
   };
   const leave = () => {
     setbgColor(props.bgColor);
@@ -27,7 +25,7 @@ export default function Button(props) {
         onMouseOver={() => over()}
         onMouseLeave={() => leave()}
       >
-        Hello, {props.title}
+        {props.title}
       </button>
     </a>
   );

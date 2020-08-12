@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Skill(props) {
-  const items = props.data.card.map((item) => {
+  const items = props.data.skills.map((item) => {
     return (
       <div className="card" key={item.id}>
         <div className="card_icon">{<i className={item.icon}></i>}</div>
@@ -10,13 +10,13 @@ export default function Skill(props) {
         <strong className="card_technologies_title">{item.technology}</strong>
         <p className="card_technologies">
           {item.technologies_items.map((item) => {
-            return <li>{item}</li>;
+            return <li key={item.id}>{item}</li>;
           })}
         </p>
         <strong className="card_tools_title">{item.tools}</strong>
         <p className="card_tools">
           {item.tools_items.map((item) => {
-            return <li>{item}</li>;
+            return <li key={item.id}>{item}</li>;
           })}
         </p>
       </div>
