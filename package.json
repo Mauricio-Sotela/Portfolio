@@ -1,7 +1,7 @@
 {
-  "name": "to_do",
+  "name": "porfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Mauricio-Sotela/Portfolio",
+  "homepage": "https://mauricio-sotela.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.0",
