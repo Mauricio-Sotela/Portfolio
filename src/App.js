@@ -39,7 +39,7 @@ export default class App extends Component {
   render = () => (
     <div>
       <Button
-        title="mauricio"
+        title="Mauricio GitHub"
         bgColor="white"
         hoverColor="black"
         textColor="black"
@@ -47,7 +47,7 @@ export default class App extends Component {
       />
 
       <Button
-        title="Sophie"
+        title="TEST ""
         bgColor="orange"
         hoverColor="green"
         textColor="white"
