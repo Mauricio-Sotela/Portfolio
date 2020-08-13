@@ -17,11 +17,11 @@ export default function Home(props) {
           />
     
           <Button
-            title="TEST "
+            title="TEST DEPLOYED "
             bgColor="orange"
             hoverColor="green"
             textColor="white"
-            to="https://google.com"
+            to="https://mauricio-sotela.github.io/Portfolio/"
           />
     
           <Skill data={Data} />

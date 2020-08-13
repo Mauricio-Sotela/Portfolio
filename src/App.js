@@ -16,7 +16,7 @@ export default function App() {
        <nav className='container main_nav'>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Portfolio">Home</Link>
             </li>
             <li>
               <Link  to="/contact">Contact Me</Link>
@@ -32,7 +32,7 @@ export default function App() {
             <Contact />
           </Route>
           
-          <Route exact path="/">
+          <Route exact path="/Portfolio">
             <Home />
           </Route>
         </Switch>
