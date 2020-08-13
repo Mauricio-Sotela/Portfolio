@@ -47,7 +47,7 @@ export default class App extends Component {
       />
 
       <Button
-        title="TEST ""
+        title="TEST "
         bgColor="orange"
         hoverColor="green"
         textColor="white"
