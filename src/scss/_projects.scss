@@ -21,15 +21,15 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
 .project{
-    
-   width: 32%;
+    background-position: center;
+   width: 30%;
    overflow: hidden;
     border-radius: 1rem;
     margin: .5rem;
-    min-width: 21rem;
+   min-width: 300px;
 }
 .project_hover{
     display: flex;

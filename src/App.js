@@ -1,62 +1,49 @@
-import React, { Component } from "react";
-import Button from "./components/Button";
-import Data from "./data.json";
-import Skill from "./components/Skils";
-import Projects from "./components/Projects";
-import ProjectContainer from "./components/ProjectContainer";
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: "Mauricio",
-      tasks: [],
-      showCompleted: true,
-    };
-  }
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+import Home from './components/Home'
+import Contact from "./components/Contact";
 
-  updateTaskInputValue = (e) => {
-    this.setState({ newTaskItem: e.target.value });
-  };
+export default function App() {
 
-  toggleTask = (task) =>
-    this.setState({
-      tasks: this.state.tasks.map((t) =>
-        t.name === task.name ? { ...t, done: !t.done } : t
-      ),
-    });
+  return (
+    <Router>
+      <div>
+       <nav className='container main_nav'>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link  to="/contact">Contact Me</Link>
+            </li>
+            <li>
+              <Link to="/topics">Topics</Link>
+            </li>
+          </ul>
+       </nav>
 
-  createNewTask = (task) => {
-    if (!this.state.tasks.find((t) => t.name === task)) {
-      this.setState(
-        {
-          tasks: [...this.state.tasks, { name: task, done: false }],
-        }
-        // () => localStorage.setItem("tasks", JSON.stringify(this.state))
-      );
-    }
-  };
-
-  render = () => (
-    <div>
-      <Button
-        title="Mauricio GitHub"
-        bgColor="white"
-        hoverColor="black"
-        textColor="black"
-        to="https://github.com/Mauricio-Sotela"
-      />
-
-      <Button
-        title="TEST "
-        bgColor="orange"
-        hoverColor="green"
-        textColor="white"
-        to="https://google.com"
-      />
-
-      <Skill data={Data} />
-
-      <ProjectContainer data={Data}  />
-    </div>
+        <Switch>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
+
+  // render = () => (
+  //   <div>
+  //   <Home />
+
+  //   </div>
+  // );
 }

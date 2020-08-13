@@ -1,7 +1,7 @@
-
 @import "button";
 @import "skills";
 @import "projects";
+@import "contact";
 
 *,
 *::before,
@@ -9,4 +9,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.main_nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: flex-end;
+    li{
+      list-style: none;
+      margin: 1rem;
+    }
+  }
 }
