@@ -6,7 +6,7 @@ export default function Contact(props) {
     e.preventDefault();
   };
   return (
-    <div className='container'> 
+    <div className="container">
       <div className="contact_menu">
         <div className="logo">
           <Link to="/">
@@ -19,15 +19,6 @@ export default function Contact(props) {
             />
           </Link>
         </div>
-        <div className="logo2">
-          <Button
-            title="TESTlllllllllll "
-            bgColor="orange"
-            hoverColor="green"
-            textColor="white"
-            to="https://google.com"
-          />
-        </div>
       </div>
       <div>
         <h1>
@@ -35,7 +26,7 @@ export default function Contact(props) {
         </h1>
       </div>
 
-       {/* FORM MADE USING BOOTSTRAP  */}
+      {/* FORM MADE USING BOOTSTRAP  */}
       <div className="container contact-form">
         <form
           onSubmit={submit}
@@ -58,9 +49,16 @@ export default function Contact(props) {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" rows="5"></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <Button
+            title="Submit "
+            bgColor="orange"
+            hoverColor="green"
+            textColor="white"
+            type="submit"
+            className="btn btn-primary"
+          >
             Submit
-          </button>
+          </Button>
         </form>
       </div>
     </div>
