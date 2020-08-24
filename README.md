@@ -1,6 +1,6 @@
 
 
-![](./screenshot.png)
+
 
 ## Available Scripts
 
