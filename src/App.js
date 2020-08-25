@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home'
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
 
@@ -37,6 +38,7 @@ export default function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 

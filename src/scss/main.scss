@@ -2,6 +2,15 @@
 @import "skills";
 @import "projects";
 @import "contact";
+@import "componentsContainer";
+@import "description";
+@import "footer";
+@import "home";
+@import "navBar";
+@import "projectContainer";
+@import "skills";
+@import "skillsContainer";
+@import "video";
 
 *,
 *::before,
@@ -17,7 +26,7 @@
     flex-direction: row;
     max-width: 1200px;
     justify-content: flex-end;
-    li{
+    li {
       list-style: none;
       margin: 1rem;
     }
