@@ -1,0 +1,32 @@
+.componentContainer__video{
+    position: absolute;
+    z-index: -5;
+    width: 100vw;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  
+  /* query video header */
+@media (min-aspect-ratio: 16/9) {
+  .componentContainer__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .componentContainer__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .componentContainer__video {
+    display: none;
+  }
+}
