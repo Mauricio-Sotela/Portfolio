@@ -1,7 +1,7 @@
 import React from "react";
 import Description from "./Description";
-import PlayIcon from '@material-ui/icons/PlayCircleOutline';
-
+import VideoPlayer from "./VideoPlayer";
+import  SimpleModal  from "./SimpleModal";
 function ComponentsContainer(props) {
   
   return (
@@ -20,7 +20,7 @@ function ComponentsContainer(props) {
           />
         </div>
         <div className="componentContainer__additional">
-          <button><PlayIcon className='icon'/></button>
+  <button>{ <SimpleModal video={<VideoPlayer/>}/>}</button>
         </div>
       </div>
     </div>

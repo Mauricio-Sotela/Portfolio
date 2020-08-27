@@ -10,6 +10,7 @@ export default function Home(props) {
         <div className="home__video">
           <Video />
         </div>
+        
       </div>
     </div>
   );

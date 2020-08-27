@@ -22,11 +22,13 @@
     }
     .componentContainer__additional {
       width: 50%;
+      
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
       button {
+       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,6 +41,8 @@
         outline: none;
       }
       .icon {
+        position: absolute;
+        
         color: rgb(239, 13, 51);
         font-size: 20rem;
         transition: all 0.3s;
