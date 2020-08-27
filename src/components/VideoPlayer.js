@@ -4,7 +4,6 @@ import "video-react/dist/video-react.css";
 export default (VideoPlayer) => {
   return (
     <Player
-    muted
       autoPay
       playsInline
       poster="https://bitmovin.com/wp-content/uploads/2016/06/sintel-poster.jpg"
