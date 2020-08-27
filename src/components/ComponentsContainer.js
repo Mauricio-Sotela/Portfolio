@@ -1,6 +1,5 @@
 import React from "react";
 import Description from "./Description";
-import red from '@material-ui/core/colors/red';
 import PlayIcon from '@material-ui/icons/PlayCircleOutline';
 
 function ComponentsContainer(props) {
@@ -14,12 +13,14 @@ function ComponentsContainer(props) {
         <div className="componentContainer__description">
           <Description
             title="FULL-STACK WEB DEVELOPER"
-            description="You have the vision for a stunning digital experience. We’re
-the software design and engineering team that can bring it to life."
+            description="“A successful website does three things:
+            It attracts the right kinds of visitors.
+            Guides them to the main services or product you offer.
+            Collect Contact details for future ongoing relation.”"
           />
         </div>
         <div className="componentContainer__additional">
-          <PlayIcon className='icon'/>
+          <button><PlayIcon className='icon'/></button>
         </div>
       </div>
     </div>

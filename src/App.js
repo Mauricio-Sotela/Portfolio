@@ -23,11 +23,4 @@ export default function App() {
       <Footer />
     </Router>
   );
-
-  // render = () => (
-  //   <div>
-  //   <Home />
-
-  //   </div>
-  // );
 }
