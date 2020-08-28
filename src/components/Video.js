@@ -1,6 +1,5 @@
 import React from "react";
-import video from "./bgVideo.mp4";
-function Video() {
+function Video(props) {
   return (
     
       <video
@@ -8,7 +7,7 @@ function Video() {
         autoPlay
         muted
         loop
-        src='https://assets.mixkit.co/videos/preview/mixkit-young-engineers-working-on-server-room-23161-large.mp4'
+        src={props.href}
         type="video/mp4"
       />
     
