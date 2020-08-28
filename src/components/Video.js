@@ -8,7 +8,7 @@ function Video() {
         autoPlay
         muted
         loop
-        src={video}
+        src='https://assets.mixkit.co/videos/preview/mixkit-young-engineers-working-on-server-room-23161-large.mp4'
         type="video/mp4"
       />
     
