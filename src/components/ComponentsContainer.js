@@ -1,9 +1,9 @@
 import React from "react";
 import Description from "./Description";
 import VideoPlayer from "./VideoPlayer";
-import  SimpleModal  from "./SimpleModal";
+import SimpleModal from "./SimpleModal";
+import Button from "./Button";
 function ComponentsContainer(props) {
-  
   return (
     <div className="componentContainer">
       <div className="componentContainer__title">
@@ -17,10 +17,19 @@ function ComponentsContainer(props) {
             It attracts the right kinds of visitors.
             Guides them to the main services or product you offer.
             Collect Contact details for future ongoing relation.”"
+            button={
+              <Button
+                title="Mauricio GitHub"
+                bgColor="white"
+                hoverColor="black"
+                textColor="red"
+                to="https://github.com/Mauricio-Sotela"
+              />
+            }
           />
         </div>
         <div className="componentContainer__additional">
-  <button>{ <SimpleModal video={<VideoPlayer/>}/>}</button>
+          <button>{<SimpleModal video={<VideoPlayer />} />}</button>
         </div>
       </div>
     </div>

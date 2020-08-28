@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../components/logo.svg";
 function NavBar() {
   const [scrolled, setScrolled] = useState("nav__container");
 
@@ -20,6 +20,11 @@ function NavBar() {
   return (
     <div className={scrolled}>
       <nav className="container main_nav">
+        <div className="logo">
+          <Link to="/Portfolio">
+            <img src={logo} alt="logo" />
+          </Link>
+        </div>
         <ul>
           <li>
             <Link to="/Portfolio">Home</Link>

@@ -1,22 +1,26 @@
 import React from "react";
-import Button from './Button'
 
 function Description(props) {
-  return (
-    <div className="description">
-      <h1>{props.title}</h1>
-      <div></div>
-      <p>{props.description}</p>
-      <Button
-            title="Mauricio GitHub"
-            bgColor="white"
-            hoverColor="black"
-            textColor="red"
-            to="https://github.com/Mauricio-Sotela"
-          />
-    
-    </div>
-  );
+  let content;
+  if (props.button) {
+    content = (
+      <div className="description">
+        <h1>{props.title}</h1>
+        <div className="line"></div>
+        <p>{props.description}</p>
+        {props.button}
+      </div>
+    );
+  } else {
+    content = (
+      <div className="description">
+        <h1>{props.title}</h1>
+        <div className="line"></div>
+        <p>{props.description}</p>
+      </div>
+    );
+  }
+  return content;
 }
 
 export default Description;

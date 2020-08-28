@@ -1,10 +1,22 @@
-.custom-button{
-  color: white;
-  width: fit-content;
-  min-width: 9rem;
-  padding: 0.3rem;
-  border-radius: 2rem;
-  border-width: 2px;
-  margin: 3rem;
-
+.custom-link {
+  width: 24rem;
+  height: 6rem;
+  margin-top: 2rem;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  .custom-button {
+    transition: all .3s ease-out;
+    border: none;
+    outline: none;
+    width: 24rem;
+    height: 6rem;
+    font-size: 1.3em;
+    &:hover{
+      transform: scale(1.1);
+      
+    }
+  }
 }
