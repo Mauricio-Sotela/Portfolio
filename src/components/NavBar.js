@@ -2,23 +2,21 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-  const [scrolled,setScrolled]=useState('nav__container');
-  
-  const handleScroll=() => {
-      const offset=window.scrollY;
-      if(offset < 10){
-        setScrolled('nav__container');
-      }
-      else{
-        setScrolled('scrolled');
-      }
+  const [scrolled, setScrolled] = useState("nav__container");
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset < 10) {
+      setScrolled("nav__container");
+    } else {
+      setScrolled("scrolled");
     }
-  
-    useEffect(() => {
-      window.addEventListener('scroll',handleScroll)
-    })
-  ;
-   
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
   return (
     <div className={scrolled}>
       <nav className="container main_nav">
@@ -27,10 +25,16 @@ function NavBar() {
             <Link to="/Portfolio">Home</Link>
           </li>
           <li>
-            <Link to="/contact">Contact Me</Link>
+            <Link to="/About">About Me</Link>
           </li>
           <li>
-            <Link to="/topics">Topics</Link>
+            <Link to="/Skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/Projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Me</Link>
           </li>
         </ul>
       </nav>
