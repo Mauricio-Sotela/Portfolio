@@ -16,7 +16,7 @@ export default function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/">
+          <Route exact path="/Portfolio">
             <Home />
           </Route>
         </Switch>

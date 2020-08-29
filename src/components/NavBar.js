@@ -14,13 +14,16 @@ function NavBar() {
     if (counter === 0) {
       setMenu(open);
       setCounter(1);
-      console.log(counter);
     } else if (counter === 1) {
       setMenu(close);
       setCounter(0);
-      console.log(counter);
     }
   };
+  const handleResize =()=>{
+    if(window.innerWidth>700){
+      setMenu(close)
+    }
+  }
 
   const [scrolled, setScrolled] = useState("nav__container");
 
@@ -33,8 +36,10 @@ function NavBar() {
     }
   };
 
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener('resize', handleResize);
   });
 
   return (
@@ -47,7 +52,7 @@ function NavBar() {
         </div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/Portfolio">Home</Link>
           </li>
           <li>
             <Link to="/About">About Me</Link>
