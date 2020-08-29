@@ -22,13 +22,12 @@
     }
     .componentContainer__additional {
       width: 50%;
-      
+
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
       button {
-       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,7 +41,7 @@
       }
       .icon {
         position: absolute;
-        
+
         color: rgb(239, 13, 51);
         font-size: 12rem;
         transition: all 0.3s;
@@ -56,4 +55,42 @@
   }
 }
 
+@media (max-width: 600px) {
+  .componentContainer {
+    .componentContainer__title {
+      margin-top: 2rem;
+      text-align: center;
+    }
 
+    .componentContainer__content {
+      display: block;
+      text-align: center;
+      margin-top: 6rem;
+      h1 {
+        width: 100%;
+      }
+      p {
+        width: 100%;
+        margin-bottom: 4rem;
+      }
+      .componentContainer__additional {
+        width: 100%;
+         margin-top: 9rem;
+        .icon {
+          position: relative;
+         
+        }
+      }
+    }
+
+    .componentContainer__content .componentContainer__description {
+      width: 100%;
+      text-align: center;
+      .description {
+        display: block;
+        padding-bottom: 4rem;
+        text-align: -webkit-center;
+      }
+    }
+  }
+}
