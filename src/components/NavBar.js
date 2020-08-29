@@ -9,7 +9,6 @@ function NavBar() {
 
   const [menu, setMenu] = useState(close);
   const [counter, setCounter] = useState(0);
-
   const handleMenu = () => {
     if (counter === 0) {
       setMenu(open);
@@ -19,11 +18,11 @@ function NavBar() {
       setCounter(0);
     }
   };
-  const handleResize =()=>{
-    if(window.innerWidth>700){
-      setMenu(close)
+  const handleResize = () => {
+    if (window.innerWidth > 700) {
+      setMenu(close);
     }
-  }
+  };
 
   const [scrolled, setScrolled] = useState("nav__container");
 
@@ -32,14 +31,13 @@ function NavBar() {
     if (offset < 10) {
       setScrolled("nav__container");
     } else {
-      setScrolled("scrolled");
+      setScrolled("nav__container scrolled");
     }
   };
 
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   });
 
   return (
@@ -50,23 +48,25 @@ function NavBar() {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        <ul>
-          <li>
-            <Link to="/Portfolio">Home</Link>
-          </li>
-          <li>
-            <Link to="/About">About Me</Link>
-          </li>
-          <li>
-            <Link to="/Skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/Projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact Me</Link>
-          </li>
-        </ul>
+        <div className="menu__container">
+          <ul className={counter === 1 ? "menuOpen" : ""}>
+            <li>
+              <Link to="/Portfolio">Home</Link>
+            </li>
+            <li>
+              <Link to="/About">About Me</Link>
+            </li>
+            <li>
+              <Link to="/Skills">Skills</Link>
+            </li>
+            <li>
+              <Link to="/Projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Me</Link>
+            </li>
+          </ul>
+        </div>
         <div
           className="burgerMenu"
           onClick={() => {
