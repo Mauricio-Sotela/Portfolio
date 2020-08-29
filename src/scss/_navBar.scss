@@ -7,6 +7,7 @@
   transition: all 0.4s ease-in;
   z-index: 1000;
   .logo {
+    padding: 0.5rem;
     width: 90px;
     display: flex;
     align-items: center;
@@ -18,15 +19,22 @@
     list-style: none;
     li {
       a {
+        transition: all 0.5s ease;
+        padding: 0.3rem;
+        border: 2px solid transparent;
         color: rgb(239, 13, 51);
         font-size: 2.3rem;
-        &:focus{
-          border-bottom: 3px solid rgb(239, 13, 51);
-          padding-bottom: 1rem;
+        &:hover {
+          border: 2px solid rgb(239, 13, 51);
         }
-       
+        &:focus {
+          border: 2px solid rgb(239, 13, 51);
+        }
       }
     }
+  }
+  .burgerMenu {
+    display: none;
   }
 }
 
@@ -35,10 +43,11 @@
   width: 100%;
   min-height: 6rem;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(14, 13, 13, 0.863);
   transition: all 0.4s ease-in;
   z-index: 1000;
   .logo {
+    padding: 0.5rem;
     width: 90px;
     display: flex;
     align-items: center;
@@ -52,11 +61,16 @@
     list-style: none;
     li {
       a {
-        color: rgb(0, 0, 0);
+        transition: all 0.5s ease;
+        padding: 0.3rem;
+        border: 2px solid transparent;
+        color: rgb(239, 13, 51);
         font-size: 2.3rem;
-        &:focus{
-          border-bottom: 3px solid rgb(239, 13, 51);
-          padding-bottom: 1rem;
+        &:hover {
+          border: 2px solid rgb(239, 13, 51);
+        }
+        &:focus {
+          border: 2px solid rgb(239, 13, 51);
         }
       }
     }
@@ -65,4 +79,29 @@
 .main_nav {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 770px) {
+  .nav__container nav ul {
+    display: none;
+  }
+  .scrolled nav ul {
+    display: none;
+  }
+  .nav__container{
+      .burgerMenu {
+    display: block;
+    .MuiSvgIcon-root {
+      cursor: pointer ;
+      fill: rgb(239, 13, 51) !important;
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      font-size: 3.5rem;
+      transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+      flex-shrink: 0;
+      user-select: none;
+    }
+  }
+  }
+
 }

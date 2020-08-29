@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../components/logo.svg";
+import BurgerMenu from "@material-ui/icons/MenuOutlined";
 function NavBar() {
   const [scrolled, setScrolled] = useState("nav__container");
 
@@ -21,13 +22,13 @@ function NavBar() {
     <div className={scrolled}>
       <nav className="container main_nav">
         <div className="logo">
-          <Link to="/Portfolio">
+          <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
         </div>
         <ul>
           <li>
-            <Link to="/Portfolio">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/About">About Me</Link>
@@ -42,6 +43,7 @@ function NavBar() {
             <Link to="/contact">Contact Me</Link>
           </li>
         </ul>
+        <div className='burgerMenu'>{<BurgerMenu />}</div>
       </nav>
     </div>
   );
