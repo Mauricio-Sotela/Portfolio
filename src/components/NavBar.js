@@ -9,6 +9,12 @@ function NavBar() {
 
   const [menu, setMenu] = useState(close);
   const [counter, setCounter] = useState(0);
+  const resetCounter = () => {
+    if (counter === 1) {
+      setCounter(0);
+      setMenu(close);
+    }
+  };
   const handleMenu = () => {
     if (counter === 0) {
       setMenu(open);
@@ -50,19 +56,39 @@ function NavBar() {
         </div>
         <div className="menu__container">
           <ul className={counter === 1 ? "menuOpen" : ""}>
-            <li>
+            <li
+              onClick={() => {
+                resetCounter();
+              }}
+            >
               <Link to="/Portfolio">Home</Link>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                resetCounter();
+              }}
+            >
               <Link to="/About">About Me</Link>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                resetCounter();
+              }}
+            >
               <Link to="/Skills">Skills</Link>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                resetCounter();
+              }}
+            >
               <Link to="/Projects">Projects</Link>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                resetCounter();
+              }}
+            >
               <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
