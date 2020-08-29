@@ -13,7 +13,7 @@ export default function Home(props) {
     <div>
       <div className="home__container">
         <ComponentsContainer
-          title="JOSE MAURICIO SOTELA PRENDERGAST"
+          title="JOSE MAURICIO SOTELA PRENDERGASTtt"
           description={
             <Description
               title="FULL-STACK WEB DEVELOPER"
