@@ -2,7 +2,26 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../components/logo.svg";
 import BurgerMenu from "@material-ui/icons/MenuOutlined";
+import CloseMenu from "@material-ui/icons/Close";
 function NavBar() {
+  let close = <BurgerMenu />;
+  let open = <CloseMenu />;
+
+  const [menu, setMenu] = useState(close);
+  const [counter, setCounter] = useState(0);
+
+  const handleMenu = () => {
+    if (counter === 0) {
+      setMenu(open);
+      setCounter(1);
+      console.log(counter);
+    } else if (counter === 1) {
+      setMenu(close);
+      setCounter(0);
+      console.log(counter);
+    }
+  };
+
   const [scrolled, setScrolled] = useState("nav__container");
 
   const handleScroll = () => {
@@ -43,7 +62,14 @@ function NavBar() {
             <Link to="/contact">Contact Me</Link>
           </li>
         </ul>
-        <div className='burgerMenu'>{<BurgerMenu />}</div>
+        <div
+          className="burgerMenu"
+          onClick={() => {
+            handleMenu();
+          }}
+        >
+          {menu}
+        </div>
       </nav>
     </div>
   );

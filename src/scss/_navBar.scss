@@ -35,6 +35,9 @@
   }
   .burgerMenu {
     display: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
   }
 }
 
@@ -87,21 +90,21 @@
   .scrolled nav ul {
     display: none;
   }
-  .nav__container{
-      .burgerMenu {
-    display: block;
-    .MuiSvgIcon-root {
-      cursor: pointer ;
-      fill: rgb(239, 13, 51) !important;
-      width: 1em;
-      height: 1em;
-      display: inline-block;
-      font-size: 3.5rem;
-      transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
-      flex-shrink: 0;
-      user-select: none;
+  .nav__container {
+    .burgerMenu {
+      display: block;
+
+      .MuiSvgIcon-root {
+        cursor: pointer;
+        fill: rgb(239, 13, 51) !important;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        font-size: 3.5rem;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+        flex-shrink: 0;
+        user-select: none;
+      }
     }
   }
-  }
-
 }
