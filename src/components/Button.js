@@ -15,7 +15,7 @@ export default function Button(props) {
   return (
     <a
       className="custom-link"
-      target="_blank"
+      target={props.target}
       rel="noopener noreferrer"
       href={props.to}
     >

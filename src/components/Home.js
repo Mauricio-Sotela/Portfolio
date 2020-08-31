@@ -28,6 +28,7 @@ export default function Home(props) {
                   hoverColor="black"
                   textColor="red"
                   to="https://github.com/Mauricio-Sotela"
+                  target="_blank"
                 />
               }
             />

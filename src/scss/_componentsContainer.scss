@@ -7,7 +7,7 @@
     justify-content: center;
     font-family: "Merriweather", serif;
     color: #fff;
-    margin-top: 16rem;
+    padding-top: 16rem;
   }
   .componentContainer__content {
     display: flex;
@@ -50,6 +50,10 @@
           transform: scale(1.2);
         }
       }
+      .MuiAvatar-root {
+        width: 90% !important;
+        height: 90% !important;
+    }
     }
   }
 }
@@ -57,7 +61,6 @@
 @media (max-width: 600px) {
   .componentContainer {
     .componentContainer__title {
-      margin-top: 2rem;
       text-align: center;
     }
 
@@ -79,6 +82,10 @@
           position: relative;
          
         }
+        .MuiAvatar-root {
+          width: 50% !important;
+          height: 50% !important;
+      }
       }
     }
 

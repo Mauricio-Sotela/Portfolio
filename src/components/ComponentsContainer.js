@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import Avatar from "@material-ui/core/Avatar";
 
 function ComponentsContainer(props) {
   let content;
@@ -15,14 +14,14 @@ function ComponentsContainer(props) {
             {props.description}
           </div>
           <div className="componentContainer__additional">
-            <button>{props.simpleModal }</button>
+            <button>{props.simpleModal}</button>
           </div>
         </div>
       </div>
     );
   } else {
     content = (
-      <div className="componentContainer">
+      <div className="componentContainer container">
         <div className="componentContainer__title">
           <h3>{props.title}</h3>
         </div>
@@ -30,7 +29,8 @@ function ComponentsContainer(props) {
           <div className="componentContainer__description">
             {props.description}
           </div>
-          <div className="componentContainer__additional"></div>
+          <div className="componentContainer__additional">{props.img && <Avatar alt="IMG" src={props.img} />}</div>
+          
         </div>
       </div>
     );
