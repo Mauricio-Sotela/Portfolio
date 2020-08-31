@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
  import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
       <div>
         <NavBar />
         <Switch>
+        <Route exact path="/skills">
+            <Skills />
+          </Route>
           <Route exact path="/contact">
             <Contact />
           </Route>

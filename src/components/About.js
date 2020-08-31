@@ -21,7 +21,7 @@ function About() {
                 bgColor="white"
                 hoverColor="black"
                 textColor="red"
-                to="./Contact.js"
+                to="./contact"
                 target=""
               />
             }

@@ -1,21 +1,86 @@
-.card_container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  max-width: 1200px;
-  border: solid 2px rgba(149, 149, 149, 0.137);
-  border-radius: 1.5rem;
-  overflow: hidden;
-  box-shadow:  0px 0px 20px  ;
-}
-
-.card {
-  max-width: fit-content;
-  min-width:16rem;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
+.skills__container {
+  width: 100%;
+  height: calc(100vh - 6.4rem);
+  background-color: black;
+  .componentContainer__title {
+    padding-top: 6rem;
+  }
+  .componentContainer__content {
+    flex-direction: column;
+    margin-top: 3rem;
+    .componentContainer__description {
+      width: 100%;
+      .description {
+        h1 {
+          align-self: center;
+          max-width: 80%;
+          font-size: 4rem;
+          text-align: center;
+        }
+        p {
+          align-self: center;
+          max-width: 80%;
+          font-size: 2.2rem;
+          text-align: center;
+        }
+        .line {
+          align-self: center;
+        }
+      }
+    }
+    .componentContainer__additional {
+      width: 100%;
+      .skills__icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+        max-width: 85rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+        .icon__box {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2rem;
+          width: 12rem;
+          height: 12rem;
+          clip-path: polygon(
+            50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%
+          );
+          background-color: red;
+          font-size: 5rem;
+          color: red;
+          &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            clip-path: polygon(
+              50% 3%,
+              97% 25%,
+              97% 75%,
+              50% 97%,
+              3% 75%,
+              3% 25%
+            );
+            background-color: rgb(27, 42, 47);
+            z-index: -1;
+          }
+          .MuiSvgIcon-root {
+            font-size: 5rem !important;
+        }
+        }
+      }
+    }
+  }
 }

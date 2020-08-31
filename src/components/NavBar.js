@@ -61,28 +61,28 @@ function NavBar() {
                 resetCounter();
               }}
             >
-              <Link to="/Portfolio">Home</Link>
+              <Link to="/portfolio">Home</Link>
             </li>
             <li
               onClick={() => {
                 resetCounter();
               }}
             >
-              <Link to="/About">About Me</Link>
+              <Link to="/about">About Me</Link>
             </li>
             <li
               onClick={() => {
                 resetCounter();
               }}
             >
-              <Link to="/Skills">Skills</Link>
+              <Link to="/skills">Skills</Link>
             </li>
             <li
               onClick={() => {
                 resetCounter();
               }}
             >
-              <Link to="/Projects">Projects</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li
               onClick={() => {
