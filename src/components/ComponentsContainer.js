@@ -6,7 +6,7 @@ function ComponentsContainer(props) {
   let content;
   if (props.simpleModal) {
     content = (
-      <div className="componentContainer">
+      <div className="componentContainer container">
         <div className="componentContainer__title">
           <h3>{props.title}</h3>
         </div>
