@@ -43,7 +43,7 @@ export default function Contact(props) {
                 </div>
                 <div className="form-group">
                   <input
-                    type="text"
+                    type='email'
                     name="txtEmail"
                     className="form-control"
                     placeholder="Your Email *"
@@ -55,7 +55,7 @@ export default function Contact(props) {
                 </div>
                 <div className="form-group">
                   <input
-                    type="text"
+                    type="number"
                     name="txtPhone"
                     className="form-control"
                     placeholder="Your Phone Number *"
