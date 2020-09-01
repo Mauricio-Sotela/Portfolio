@@ -1,65 +1,104 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Button from "./Button";
+import React, { useState } from "react";
+import rocket from "./rocket.png";
+
 export default function Contact(props) {
-  const submit = (e) => {
+  const handelSubmit = (e) => {
     e.preventDefault();
+    console.log(e);
+    alert(e);
+  };
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    msg: "",
+  });
+  const handleChange = (event) => {
+    // setInput(event.target.value);
+console.log();
   };
   return (
-    <div className="container">
-      <div className="contact_menu">
-        <div className="logo">
-          <Link to="/">
-            <Button
-              title="Back Home "
-              bgColor="orange"
-              hoverColor="green"
-              textColor="white"
-              //   to="/"
-            />
-          </Link>
+    <div class="contact">
+      <div className="container">
+        <div className="contact-title">
+          <h3>CONTACT</h3>
         </div>
-      </div>
-      <div>
-        <h1>
-          Thanks for taking the time to reach out. How can I help you today?
-        </h1>
-      </div>
 
-      {/* FORM MADE USING BOOTSTRAP  */}
-      <div className="container contact-form">
-        <form
-          onSubmit={submit}
-          id="contact-form"
-          //   method="POST"
-        >
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" />
+        <div className="container contact-form">
+          <div className="contact-image">
+            <img src={rocket} alt="rocket_contact" />
           </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              aria-describedby="emailHelp"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5"></textarea>
-          </div>
-          <Button
-            title="Submit "
-            bgColor="orange"
-            hoverColor="green"
-            textColor="white"
-            type="submit"
-            className="btn btn-primary"
+          <form
+            onSubmit={() => {
+              handelSubmit();
+            }}
+            method=""
           >
-            Submit
-          </Button>
-        </form>
+            <h3>Drop Me a Message</h3>
+            <div className="row">
+              <div className="col-md-6">
+                <div className="form-group">
+                  <input
+                    type="text"
+                    name="txtName"
+                    className="form-control"
+                    placeholder="Your Name *"
+                    value={input.name}
+                    onChange={() => {
+                      handleChange();
+                    }}
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    name="txtEmail"
+                    className="form-control"
+                    placeholder="Your Email *"
+                    value={input.email}
+                    onChange={() => {
+                      handleChange();
+                    }}
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    name="txtPhone"
+                    className="form-control"
+                    placeholder="Your Phone Number *"
+                    value={input.phone}
+                    onChange={() => {
+                      handleChange();
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="form-group txt_area">
+                  <textarea
+                    name="txtMsg"
+                    className="form-control"
+                    placeholder="Your Message *"
+                    value={input.img}
+                    onChange={() => {
+                      handleChange();
+                    }}
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div className="form-group s_btn">
+              <input
+                type="submit"
+                name="btnSubmit"
+                className="btnContact"
+                value="Send Message"
+                // onSubmit={()=>{handelSubmit()}}
+              />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

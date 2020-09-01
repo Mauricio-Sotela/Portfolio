@@ -1,10 +1,92 @@
 
+/* CONTACT ME */
 
-.contact_menu{
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    justify-content: space-between;
-
-}
-
+.contact {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    background-color: #000000;
+    padding: 3rem 0;
+    .container{
+       
+        .contact-title{
+            text-align: center;
+        }
+    }
+  }
+  
+  .form-group{
+      min-height: 5rem;
+      .form-control{
+        min-height: 5rem;
+      }
+  }
+  .contact-form{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    .s_btn{
+        margin-top: 5rem;
+        text-align: center;
+      }
+      .txt_area{
+        margin-top: 1rem;
+        text-align: center;
+        min-height: 15rem;
+        .form-control{
+            min-height: 15rem;  
+        }
+      }
+  }
+  .contact-form .form-control{
+    border-radius:1rem;
+    border: .1rem solid rgba(255, 0, 0, 0.322);
+  }
+  .form-control{
+    font-size: 2rem;
+  }
+  .contact-image{
+    text-align: center;
+  }
+  .contact-image img{
+    border-radius: 50%;
+    width: 19%;
+    margin-top: -7%;
+    transform: rotate(29deg);
+  }
+  .contact-form form{
+    padding: 14%;
+  
+  }
+  .contact-form form .row{
+    margin-bottom:7%;
+    
+  }
+  .contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #cc0000;
+  }
+  .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btnContactSubmit
+  {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
