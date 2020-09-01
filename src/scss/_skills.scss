@@ -105,7 +105,11 @@
       .componentContainer__additional {
         .skills__icons {
           margin-top: 0;
+           .icon__box {
+          margin: 1rem;
+      }
         }
+       
       }
     }
   }
