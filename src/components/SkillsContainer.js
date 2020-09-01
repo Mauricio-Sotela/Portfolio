@@ -1,34 +1,18 @@
 import React from "react";
-import Casa from "@material-ui/icons/AccountBalance";
+
 function SkillsContainer() {
-  return (
-    <div className="skills__icons">
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-      <div className="icon__box">
-        <Casa />
-      </div>
-    </div>
-  );
+  // map simulation
+  let data=[{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
+  
+  let  skills=data.map((skill)=>{
+      return(<div className="icon__box">  <i className="fab fa-sass"></i> </div>
+      )
+    })
+     
+    
+ 
+  return(<div className="skills__icons">{skills}</div>)
+  
 }
 
 export default SkillsContainer;
