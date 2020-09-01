@@ -1,6 +1,6 @@
 .skills__container {
   width: 100%;
-  height: calc(100vh - 6.4rem);
+  min-height: calc(100vh - 6.4rem);
   background-color: black;
   .componentContainer__title {
     padding-top: 6rem;
@@ -13,13 +13,13 @@
       .description {
         h1 {
           align-self: center;
-          max-width: 80%;
+          max-width: 100%;
           font-size: 4rem;
           text-align: center;
         }
         p {
           align-self: center;
-          max-width: 80%;
+          max-width: 100%;
           font-size: 2.2rem;
           text-align: center;
         }
@@ -29,6 +29,7 @@
       }
     }
     .componentContainer__additional {
+      margin-top: 1rem;
       width: 100%;
       .skills__icons {
         display: flex;
@@ -78,7 +79,32 @@
           }
           .MuiSvgIcon-root {
             font-size: 5rem !important;
+          }
         }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .skills__container {
+    .description p {
+      margin-bottom: 0;
+    }
+    .skills__icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: -moz-fit-content;
+      height: fit-content;
+      max-width: 85rem;
+      margin: 0 auto;
+      margin-top: 4rem;
+    }
+    .componentContainer__content {
+      .componentContainer__additional {
+        .skills__icons {
+          margin-top: 0;
         }
       }
     }
