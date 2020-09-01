@@ -7,3 +7,10 @@
     background-color: rgba(0, 0, 0, 0.89);
   
 }
+
+@media (max-width: 767px) {
+    .home__container {
+  
+      background-color: black;
+    }
+  }
