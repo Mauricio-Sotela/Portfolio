@@ -50,7 +50,7 @@ function NavBar() {
     <div className={scrolled}>
       <nav className="container main_nav">
         <div className="logo">
-          <Link to="/">
+          <Link to="/portfolio">
             <img src={logo} alt="logo" />
           </Link>
         </div>
