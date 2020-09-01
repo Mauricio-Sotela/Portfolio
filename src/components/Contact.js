@@ -55,7 +55,7 @@ export default function Contact(props) {
                 </div>
                 <div className="form-group">
                   <input
-                    type="number"
+                    type="tel"
                     name="txtPhone"
                     className="form-control"
                     placeholder="Your Phone Number *"
