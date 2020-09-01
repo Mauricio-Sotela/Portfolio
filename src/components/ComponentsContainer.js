@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "@material-ui/core/Avatar";
 import SkillsContainer from "./SkillsContainer";
-
+import Slider from "./Slider";
 function ComponentsContainer(props) {
   let content;
   if (props.simpleModal) {
@@ -33,6 +33,7 @@ function ComponentsContainer(props) {
           <div className="componentContainer__additional">
             {props.img && <Avatar alt="IMG" src={props.img} />}
             {props.skills && <SkillsContainer />}
+            {props.slider && <Slider/>}
           </div>
         </div>
       </div>

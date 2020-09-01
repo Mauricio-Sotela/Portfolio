@@ -4,7 +4,7 @@ import ComponentsContainer from "./ComponentsContainer";
 import Video from "./Video";
 import VideoPlayer from "./VideoPlayer";
 import SimpleModal from "./SimpleModal";
-
+import PlayIcon from "@material-ui/icons/PlayCircleOutline";
 import Description from "./Description";
 import Button from "./Button";
 
@@ -33,7 +33,12 @@ export default function Home(props) {
               }
             />
           }
-          simpleModal={<SimpleModal video={<VideoPlayer />} />}
+          simpleModal={
+            <SimpleModal
+               video={<VideoPlayer />}
+              icon={<PlayIcon className="icon" />}
+            />
+          }
         />
         <div className="home__video">
           <Video href="https://assets.mixkit.co/videos/preview/mixkit-young-engineers-working-on-server-room-23161-large.mp4" />

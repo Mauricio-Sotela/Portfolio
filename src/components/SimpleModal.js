@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
-import PlayIcon from "@material-ui/icons/PlayCircleOutline";
 
 function getModalStyle() {
   const top = 50;
@@ -41,14 +40,15 @@ export default function SimpleModal(props) {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-      {props.video}
+      {props.video && props.video}
+      {props.slider && props.slider}
     </div>
   );
 
   return (
     <div>
       <button type="button" onClick={handleOpen}>
-        <PlayIcon className="icon" />
+        {props.icon && props.icon}
       </button>
       <Modal
         open={open}
