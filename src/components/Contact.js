@@ -2,21 +2,13 @@ import React, { useState } from "react";
 import rocket from "./rocket.png";
 
 export default function Contact(props) {
-  const handelSubmit = (e) => {
-    e.preventDefault();
-    console.log(e);
-    alert(e);
-  };
   const [input, setInput] = useState({
     name: "",
     email: "",
     phone: "",
     msg: "",
   });
-  const handleChange = (event) => {
-    // setInput(event.target.value);
-console.log();
-  };
+
   return (
     <div class="contact">
       <div className="container">
@@ -29,8 +21,8 @@ console.log();
             <img src={rocket} alt="rocket_contact" />
           </div>
           <form
-            onSubmit={() => {
-              handelSubmit();
+            onSubmit={(e) => {
+              e.preventDefault();
             }}
             method=""
           >
@@ -44,8 +36,8 @@ console.log();
                     className="form-control"
                     placeholder="Your Name *"
                     value={input.name}
-                    onChange={() => {
-                      handleChange();
+                    onChange={(e) => {
+                      setInput({ ...input, name: e.target.value });
                     }}
                   />
                 </div>
@@ -56,8 +48,8 @@ console.log();
                     className="form-control"
                     placeholder="Your Email *"
                     value={input.email}
-                    onChange={() => {
-                      handleChange();
+                    onChange={(e) => {
+                      setInput({ ...input, email: e.target.value });
                     }}
                   />
                 </div>
@@ -68,8 +60,8 @@ console.log();
                     className="form-control"
                     placeholder="Your Phone Number *"
                     value={input.phone}
-                    onChange={() => {
-                      handleChange();
+                    onChange={(e) => {
+                      setInput({ ...input, phone: e.target.value });
                     }}
                   />
                 </div>
@@ -81,8 +73,8 @@ console.log();
                     className="form-control"
                     placeholder="Your Message *"
                     value={input.img}
-                    onChange={() => {
-                      handleChange();
+                    onChange={(e) => {
+                      setInput({ ...input, msg: e.target.value });
                     }}
                   ></textarea>
                 </div>
@@ -94,7 +86,6 @@ console.log();
                 name="btnSubmit"
                 className="btnContact"
                 value="Send Message"
-                // onSubmit={()=>{handelSubmit()}}
               />
             </div>
           </form>
