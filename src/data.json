@@ -2,117 +2,61 @@
   "skills": [
     {
       "id": "01",
-      "icon": "fas fa-pencil-ruler",
-      "title": "first",
-      "description": "Sophie",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-sass"
+      
     },
     {
       "id": "02",
-      "icon": "fas fa-paw",
-      "title": "second",
-      "description": "Herbert Schildt",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-html5"
     },
     {
       "id": "03",
-      "icon": "fas fa-car",
-      "title": "third",
-      "description": "Herbert Schildt",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-css3-alt"
+     
     },
     {
       "id": "04",
-      "icon": "fas fa-pencil-ruler",
-      "title": "first",
-      "description": "Sophie",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-js"
+      
     },
     {
       "id": "05",
-      "icon": "fas fa-paw",
-      "title": "second",
-      "description": "Herbert Schildt",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-node"
+ 
     },
     {
       "id": "06",
-      "icon": "fas fa-car",
-      "title": "third",
-      "description": "Herbert Schildt",
-      "technology": "Java",
-      "technologies_items": ["HTML", "Pug", "Slim", "CSS", "Sass", "Less"],
-      "tools": "Herbert Schildt",
-      "tools_items": [
-        "Balsamiq Mockups",
-        "Figma",
-        "Invision",
-        "Marvel",
-        "Pen & Paper",
-        "Sketch",
-        "Webflow",
-        "Zeplin"
-      ]
+      "icon": "fab fa-git"
+ 
+    },
+    {
+      "id": "07",
+      "icon": "fab fa-github"
+      
+    },
+    {
+      "id": "08",
+      "icon": "fab fa-terminal"
+    },
+    {
+      "id": "09",
+      "icon": "fas fa-car"
+     
+    },
+    {
+      "id": "10",
+      "icon": "fas fa-pencil-ruler"
+      
+    },
+    {
+      "id": "11",
+      "icon": "fas fa-paw"
+ 
+    },
+    {
+      "id": "12",
+      "icon": "fas fa-car"
+ 
     }
   ],
   "projects": [

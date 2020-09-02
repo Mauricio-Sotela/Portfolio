@@ -8,6 +8,8 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 
+
+
 export default function App() {
   return (
     <Router>
@@ -15,7 +17,7 @@ export default function App() {
         <NavBar />
         <Switch>
         <Route exact path="/skills">
-            <Skills />
+            <Skills  />
           </Route>
           <Route exact path="/contact">
             <Contact />
@@ -30,7 +32,7 @@ export default function App() {
             <Projects />
           </Route>
         </Switch>
-        <Footer/><Footer/><Footer/><Footer/><Footer/>
+        <Footer/>
       </div>
     </Router>
   );
