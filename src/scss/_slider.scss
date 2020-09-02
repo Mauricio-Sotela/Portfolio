@@ -1,18 +1,29 @@
 .slider__container{
-    margin: 3rem auto 1rem;
+    padding: 9rem 0;
     width: 70%;
-    height: 100vh;
+    height: fit-content;
+    height:calc(100vh - 6.4rem);
 }
 .carousel-root {
     outline: none;
     width: 100%;
     margin: 0 auto;
-    height: 90vh;
     .carousel {
         /* position: relative; */
         .thumbs-wrapper {
+            display: flex;
+            justify-content: center;
             margin: 20px;
             overflow-x: scroll;
+          
         }
     }
 }
+@media (max-width: 767px) {
+    .slider__container{
+        width: 100%;
+    }
+    .legend{
+        display: none;
+    }
+  }
