@@ -5,20 +5,17 @@ import Data from "../data.json";
 function Slider() {
   let projects = Data.projects.map((project) => {
     return (
-      <a href={project.url}>
-        <div>
-          <img alt="" src={project.img} />
-          <p className="legend">Legend 1</p>
-        </div>
-      </a>
+      <div key={project.id}>
+        <img alt="" src={project.img} />
+        <a href={project.url} target="blank">
+          {" "}
+    <p className="legend">Visit the <span>{project.label}</span> project website</p>
+        </a>
+      </div>
     );
   });
 
-  return (
-    <Carousel autoPlay infiniteLoop>
-      {projects}
-    </Carousel>
-  );
+  return <Carousel infiniteLoop>{projects}</Carousel>;
 }
 
 export default Slider;

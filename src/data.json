@@ -70,49 +70,49 @@
     {
       "id": "01",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_youtebe.png?token=ANITQNKWJTJZ7GRNIXVDXEK7LIDL6",
-      "lebel": "Vancouver's tower crane rental service and support leader since 1974.",
+      "label": "YouTube_clone",
       "url": "https://github.com/Mauricio-Sotela/YouTube"
     },
     {
       "id": "02",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/Weather_app.png?token=ANITQNO2CGJQJNHWODVIYIC7LIDPQ",
-      "lebel": "Results-oriented, responsive and flexible full service civil engineering firm.",
+      "label": "Weather_app",
       "url": "https://img.freepik.com/free-vector/sport-background-with-abstract-shapes_52683-18504.jpg?size=626&ext=jpg"
     },
     {
       "id": "03",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_media_quary.png?token=ANITQNIK5TQCUJHXVIKACFC7LID42",
-      "lebel": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "label": "Media_query.",
       "url": "https://github.com/Mauricio-Sotela/media_query"
     },
     {
       "id": "04",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_airbnb.png?token=ANITQNMK5KBRDYE4QWSZESS7LIDZ6",
-      "lebel": "Vancouver's tower crane rental service and support leader since 1974.",
+      "label": "Airbnb",
       "url": "https://github.com/Mauricio-Sotela/Airbnb_copy"
     },
     {
       "id": "05",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_Bootstrap.png?token=ANITQNKF4FDHEHXI5BMXUB27LIDW4",
-      "lebel": "Results-oriented, responsive and flexible full service civil engineering firm.",
+      "label": "Bootstrap",
       "url": "https://mauricio-sotela.github.io/Bootstrap/"
     },
     {
       "id": "06",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/periodic_table.png?token=ANITQNJLMHXTWXLSQNHUUHC7LIDUE",
-      "lebel": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "label": "Periodic_table",
       "url": "https://github.com/Mauricio-Sotela/periodic_Table"
     },
     {
       "id": "07",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/Chest.png?token=ANITQNO42UBIQM3U5T3GWWK7LIEAM",
-      "lebel": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "label": "Chest",
       "url": "https://github.com/Mauricio-Sotela/chest"
     },
     {
       "id": "08",
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/calculator.png?token=ANITQNLMEIF6TAQ2WDOMSRC7LIDIW",
-      "lebel": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "label": "Calculator",
       "url": "https://github.com/Mauricio-Sotela/calculator"
     }
   ]

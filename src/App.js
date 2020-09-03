@@ -13,7 +13,7 @@ import Projects from "./components/Projects";
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className='main__div'>
         <NavBar />
         <Switch>
         <Route exact path="/skills">

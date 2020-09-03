@@ -22,6 +22,15 @@
       }
     }
   }
+  .legend {
+    transition: all .5s ease-in-out;
+    span{
+      color: rgba(255, 1, 1, 0.808);
+    }
+    &:hover{
+      border:  1px solid rgba(255, 0, 0, 0.603);
+    }
+  }
 }
 .carousel-root {
   outline: none;
