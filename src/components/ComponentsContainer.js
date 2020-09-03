@@ -37,6 +37,7 @@ function ComponentsContainer(props) {
             {props.img && <Avatar alt="IMG" src={props.img} />}
             {props.skills && <SkillsContainer skills={Data.skills} />}
             {props.slider && <Slider/>}
+          
           </div>
         </div>
       </div>

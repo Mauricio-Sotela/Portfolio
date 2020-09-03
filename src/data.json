@@ -36,29 +36,36 @@
     },
     {
       "id": "08",
-      "icon": "fab fa-terminal"
+      "icon": "fas fa-terminal"
     },
     {
       "id": "09",
-      "icon": "fas fa-car"
+      "img":"file-icons:vscode"
      
     },
     {
       "id": "10",
-      "icon": "fas fa-pencil-ruler"
+      "img": "cib:react"
       
     },
     {
       "id": "11",
-      "icon": "fas fa-paw"
+      "img": "cib:mongodb"
  
     },
     {
       "id": "12",
-      "icon": "fas fa-car"
+      "img": "mdi:regex"
+ 
+    },
+    {
+      "id": "13",
+      "unknown": "express",
+      "external__url":"https://timmymatthews.com/images/express.png"
  
     }
   ],
+ 
   "projects": [
     {
       "id": "01",

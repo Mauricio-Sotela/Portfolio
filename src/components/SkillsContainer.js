@@ -7,8 +7,27 @@ function SkillsContainer(props) {
   let skills = data.map((skill) => {
     return (
       <div className="icon__box" key={skill.id}>
-       
-        <i className={skill.icon}></i>
+        {/* font aweson icon */}
+        {skill.icon && <i className={skill.icon}></i>}
+
+        {/* in case not icon in font awesome found */}
+        {skill.img && (
+          <span
+            className="iconify"
+            data-icon={skill.img}
+            data-inline="false"
+          ></span>
+        )}
+
+        {/* in case not icon found use img*/}
+        {skill.unknown && (
+          <img
+            align="center"
+            alt="express"
+            width="80%"
+            src={skill.external__url}
+          />
+        )}
       </div>
     );
   });

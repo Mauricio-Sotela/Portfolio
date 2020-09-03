@@ -29,7 +29,6 @@ function Footer() {
         <li>
           <a
             className="icoHotmail"
-            target="blank"
             href="mailto:j-ms-27@hotmail.com"
             title="Hot Mail"
           >
