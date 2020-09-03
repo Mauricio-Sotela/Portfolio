@@ -25,7 +25,7 @@ export default function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="/Portfolio">
             <Home />
             <About />
             <Skills  />

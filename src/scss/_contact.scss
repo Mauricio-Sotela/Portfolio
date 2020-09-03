@@ -89,4 +89,9 @@
     border: none;
     cursor: pointer;
   }
+  @media (max-width: 767px) {
+    .contact-form {
+      width: 100%;
+  }
+  }
   

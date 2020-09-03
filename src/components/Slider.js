@@ -9,13 +9,19 @@ function Slider() {
         <img alt="" src={project.img} />
         <a href={project.url} target="blank">
           {" "}
-    <p className="legend">Visit the <span>{project.label}</span> project website</p>
+          <p className="legend">
+            Visit the <span>{project.label}</span> project website
+          </p>
         </a>
       </div>
     );
   });
 
-  return <Carousel infiniteLoop>{projects}</Carousel>;
+  return (
+    <Carousel autoPlay infiniteLoop>
+      {projects}
+    </Carousel>
+  );
 }
 
 export default Slider;
