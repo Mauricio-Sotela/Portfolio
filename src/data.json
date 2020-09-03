@@ -69,42 +69,56 @@
   "projects": [
     {
       "id": "01",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/projects_youtebe.png?raw=true",
       "category": "sports",
       "description": "Vancouver's tower crane rental service and support leader since 1974.",
       "bg_img": "https://mattfarley.ca/img/projects/awg2020.png"
     },
     {
       "id": "02",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/Weather_app.png?raw=true",
       "category": "food",
       "description": "Results-oriented, responsive and flexible full service civil engineering firm.",
       "bg_img": "https://img.freepik.com/free-vector/sport-background-with-abstract-shapes_52683-18504.jpg?size=626&ext=jpg"
     },
     {
       "id": "03",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/projects_media_quary.png?raw=true",
       "category": "holidays",
       "description": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
       "bg_img": "https://image.freepik.com/vector-gratis/fondo-deporte-abstracto-estilo-plano_23-2148216726.jpg"
     },
     {
       "id": "04",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/projects_airbnb.png?raw=true",
       "category": "sports",
       "description": "Vancouver's tower crane rental service and support leader since 1974.",
       "bg_img": "https://images.creativemarket.com/0.1.0/ps/8125828/300/200/m2/fpnw/wm0/16-.jpg?1586772371&s=b828d574e09ae601c393530318a275bb"
     },
     {
       "id": "05",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/projects_Bootstrap.png?raw=true",
       "category": "food",
       "description": "Results-oriented, responsive and flexible full service civil engineering firm.",
       "bg_img": "https://image.freepik.com/vector-gratis/fondo-colorido-abstracto_23-2147791720.jpg"
     },
     {
       "id": "06",
-      "url": "https://www.freepik.es/vector-gratis/fondo-deporte-abstracto-estilo-plano_4936456.htm",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/periodic_table.png?raw=true",
+      "category": "holidays",
+      "description": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "bg_img": "https://image.freepik.com/vector-gratis/fondo-abstracto-estilo-memphis_23-2147952147.jpg"
+    },
+    {
+      "id": "07",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/Chest.png?raw=true",
+      "category": "holidays",
+      "description": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
+      "bg_img": "https://image.freepik.com/vector-gratis/fondo-abstracto-estilo-memphis_23-2147952147.jpg"
+    },
+    {
+      "id": "08",
+      "url": "https://github.com/Mauricio-Sotela/Portfolio/blob/master/src/img/projects/periodic_table.png?raw=true",
       "category": "holidays",
       "description": "High-end, custom residential renovaters serving Fraser Valley homeowners.",
       "bg_img": "https://image.freepik.com/vector-gratis/fondo-abstracto-estilo-memphis_23-2147952147.jpg"
