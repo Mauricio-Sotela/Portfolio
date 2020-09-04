@@ -1,0 +1,103 @@
+.fullProject {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  
+
+  .fullProject__info {
+      background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 60%;
+    .container {
+        height: 100%;
+        display: flex;
+      .left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        padding-left: 4rem;
+        align-items: flex-start;
+        justify-content: center;
+        img {
+          width: 30%;
+        }
+        h2 {
+          font-size: 6rem;
+          max-width: 70%;
+        }
+        .line {
+          width: 5rem;
+          margin: 2rem 0;
+        }
+        p {
+          font-size: 2rem;
+          max-width: 70%;
+        }
+        button {
+          border: none;
+          outline: none;
+          padding: 1rem;
+          border-radius: 5px;
+        }
+      }
+      .right {
+        width: 50%;
+        padding: 3rem;
+        .img__container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+
+          img {
+            width: 100%;
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+  .fullProject__comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-color: rgb(149, 147, 147);
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .avatar {
+      width: 10rem;
+      height: 10rem;
+    }
+    .client {
+      max-width: 50%;
+      margin-top: 4rem;
+      .testimony {
+        position: relative;
+        &::before {
+          position: absolute;
+          top: -2rem;
+          margin-left: -2rem;
+          content: "\201C";
+          font-size: 5rem;
+        }
+        &::after {
+          position: absolute;
+          bottom: -3.2rem;
+          margin-left: 1rem;
+
+          content: "\201D";
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

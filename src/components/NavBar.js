@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../components/logo.svg";
+import logo from "../img/logo.svg";
 import BurgerMenu from "@material-ui/icons/MenuOutlined";
 import CloseMenu from "@material-ui/icons/Close";
 function NavBar() {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import rocket from "./rocket.png";
+import rocket from "../img/rocket.png";
 
 export default function Contact(props) {
   const [input, setInput] = useState({

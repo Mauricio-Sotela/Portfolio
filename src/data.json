@@ -3,7 +3,6 @@
     {
       "id": "01",
       "icon": "fab fa-sass"
-      
     },
     {
       "id": "02",
@@ -12,27 +11,22 @@
     {
       "id": "03",
       "icon": "fab fa-css3-alt"
-     
     },
     {
       "id": "04",
       "icon": "fab fa-js"
-      
     },
     {
       "id": "05",
       "icon": "fab fa-node"
- 
     },
     {
       "id": "06",
       "icon": "fab fa-git"
- 
     },
     {
       "id": "07",
       "icon": "fab fa-github"
-      
     },
     {
       "id": "08",
@@ -40,32 +34,27 @@
     },
     {
       "id": "09",
-      "img":"file-icons:vscode"
-     
+      "img": "file-icons:vscode"
     },
     {
       "id": "10",
       "img": "cib:react"
-      
     },
     {
       "id": "11",
       "img": "cib:mongodb"
- 
     },
     {
       "id": "12",
       "img": "mdi:regex"
- 
     },
     {
       "id": "13",
       "unknown": "express",
-      "external__url":"https://timmymatthews.com/images/express.png"
- 
+      "external__url": "https://timmymatthews.com/images/express.png"
     }
   ],
- 
+
   "projects": [
     {
       "id": "01",
@@ -114,6 +103,38 @@
       "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/calculator.png?token=ANITQNLMEIF6TAQ2WDOMSRC7LIDIW",
       "label": "Calculator",
       "url": "https://github.com/Mauricio-Sotela/calculator"
+    }
+  ],
+  "fullProjects": [
+    {
+      "logo": "https://icon-library.com/images/whatsapp-icon-download/whatsapp-icon-download-11.jpg",
+      "project__name": "Whatsapp",
+      "description": "Amazing hahha ajshuiahs jgugsufda ughihbac jgajfbjsb",
+      "site__img": "https://img.icons8.com/cotton/2x/whatsapp--v3.png",
+      "client__img": "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-light-skin-tone.png",
+      "client__name": "Mauricio",
+      "client__profession": "Gerente at",
+      "company__name": "sotela solution",
+      "client__testimony": "jegfjiasgcfui uagfiaehosiagicc iozabfaeoicha89sadc idzgcciosdcz8s9d 8ztiguidhfphoihd kguihdv iohdioposhd ioghgdishiozisdfh hdoihcidshichs khoihadcyjchdsoyxcsdh oiihsdvcxhhdsc iogcdhtuisdgvisdhids iogdiosxcsdxcz",
+      "url": "https://www.iemoji.com/view/emoji/1334/skin-tones/man-light-skin-tone",
+      "color1": "#02aab0 ",
+      "color2": "#00cdac",
+      "color3":"white"
+    },
+    {
+      "logo": "https://icon-library.com/images/whatsapp-icon-download/whatsapp-icon-download-11.jpg",
+      "project__name": "Whatsapp",
+      "description": "Amazing hahha ajshuiahs jgugsufda ughihbac jgajfbjsb",
+      "site__img": "http://pngimg.com/uploads/tablet/tablet_PNG8584.png",
+      "client__img": "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-light-skin-tone.png",
+      "client__name": "Mauricio",
+      "client__profession": "Gerente at",
+      "company__name": "sotela solution",
+      "client__testimony": "jegfjiasgcfui uagfiaehosiagicc iozabfaeoicha89sadc idzgcciosdcz8s9d 8ztiguidhfphoihd kguihdv iohdioposhd iidzgcciosdcz8s9d idzgcciosdcz8s9d idzgcciosdcz8s9d dzgcciosdcz8s9d zidzgcciosdcz8s9didzgcciosdcz8s9didzgcciosdcz8s9d",
+      "url": "https://www.iemoji.com/view/emoji/1334/skin-tones/man-light-skin-tone",
+      "color1": "#2193b0 ",
+      "color2": "#6dd5ed",
+      "color3":"white"
     }
   ]
 }
