@@ -52,10 +52,10 @@ function FullProject(props) {
         <div className="container">
           <Avatar className="avatar" alt="avatar_img" src={client__img} />
           <div className="client">
-            <p className="testimony">{client__testimony}</p>
+            <p className="testimony">`{client__testimony}`</p>
             <p>
               <span>{client__name}</span>
-              <span>{client__profession}</span>
+              <span> {client__profession}</span>
             </p>
             <p>
               <strong>{company__name}</strong>
