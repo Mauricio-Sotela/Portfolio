@@ -50,7 +50,7 @@ function NavBar() {
     <div className={scrolled}>
       <nav className="container main_nav">
         <div className="logo">
-          <Link to="/Portfolio">
+          <Link to="/portfolio">
             <img src={logo} alt="logo" />
           </Link>
         </div>
@@ -61,7 +61,7 @@ function NavBar() {
                 resetCounter();
               }}
             >
-              <Link to="/Portfolio">Home</Link>
+              <Link to="/portfolio">Home</Link>
             </li>
             <li
               onClick={() => {
