@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Button(props) {
   const [bgColor, setbgColor] = useState(props.bgColor);
   const [textColor, settextColor] = useState(props.textColor);
@@ -12,21 +12,40 @@ export default function Button(props) {
     setbgColor(props.bgColor);
     settextColor(props.textColor);
   };
-  return (
-    <a
-      className="custom-link"
-      target={props.target}
-      rel="noopener noreferrer"
-      href={props.to}
-    >
-      <button
-        className="custom-button"
-        style={{ backgroundColor: bgColor, color: textColor }}
-        onMouseOver={() => over()}
-        onMouseLeave={() => leave()}
+
+  let button =
+    props.target === "" ? (
+      <Link
+        to={props.to}
+        className="custom-link"
+        rel="noopener noreferrer"
       >
-        {props.title}
-      </button>
-    </a>
-  );
+        <button
+          className="custom-button"
+          style={{ backgroundColor: bgColor, color: textColor }}
+          onMouseOver={() => over()}
+          onMouseLeave={() => leave()}
+        >
+          {props.title}
+        </button>
+      </Link>
+    ) : (
+      <a
+        className="custom-link"
+        target={props.target}
+        rel="noopener noreferrer"
+        href={props.to}
+      >
+        <button
+          className="custom-button"
+          style={{ backgroundColor: bgColor, color: textColor }}
+          onMouseOver={() => over()}
+          onMouseLeave={() => leave()}
+        >
+          {props.title}
+        </button>
+      </a>
+    );
+
+  return button;
 }
