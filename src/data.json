@@ -119,22 +119,22 @@
       "url": "https://www.iemoji.com/view/emoji/1334/skin-tones/man-light-skin-tone",
       "color1": "#02aab0 ",
       "color2": "#00cdac",
-      "color3":"white"
+      "color3": "white"
     },
     {
-      "logo": "https://www.flaticon.es/premium-icon/icons/svg/3015/3015805.svg",
-      "project__name": "Whatsapp",
-      "description": "LegalZoom made legal assistance accessible to over 3 million families and small businesses. We made it pocket-sized.",
-      "site__img": "http://pngimg.com/uploads/tablet/tablet_PNG8584.png",
+      "logo": "",
+      "project__name": "Vehicles",
+      "description": "Here you can find information about different kinds of vehicles, you also can filter your search depending on the vehicle type.",
+      "site__img": "https://raw.githubusercontent.com/Mauricio-Sotela/vehicules/master/images/spercarshot.png",
       "client__img": "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/man-light-skin-tone.png",
-      "client__name": "Mauricio",
-      "client__profession": "Gerente at",
-      "company__name": "sotela solution",
-      "client__testimony": "JMSP has exceeded my expectations from design to development, and I love how I can trust them with product strategy too.",
-      "url": "https://www.iemoji.com/view/emoji/1334/skin-tones/man-light-skin-tone",
+      "client__name": "Jose Mauricio Sotela Prendergast",
+      "client__profession": "Web Developer",
+      "company__name": "JMSP",
+      "client__testimony": "A web site created using vanilla JavaScript, HTML and CSS.",
+      "url": "https://mauricio-sotela.github.io/vehicules/",
       "color1": "#2193b0 ",
       "color2": "#6dd5ed",
-      "color3":"white"
+      "color3": "white"
     }
   ]
 }

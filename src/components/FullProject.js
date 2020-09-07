@@ -26,7 +26,17 @@ function FullProject(props) {
       >
         <div className="container">
           <div className="left">
-            <img alt="img" src={logo} />
+            {logo === "" ? (
+              <svg height="10%" width="50%">
+                <text x="0" y="20" fill="red" fontSize="4rem" fontWeight="bold">
+                  JMSP
+                </text>
+                Sorry, your browser does not support inline SVG.
+              </svg>
+            ) : (
+              <img alt="img" src={logo} />
+            )}
+
             <h2>{project__name}</h2>
             <div className="line"></div>
             <p>{description}</p>
@@ -52,10 +62,10 @@ function FullProject(props) {
         <div className="container">
           <Avatar className="avatar" alt="avatar_img" src={client__img} />
           <div className="client">
-            <p className="testimony">`{client__testimony}`</p>
+            <p className="testimony">{client__testimony}</p>
             <p>
               <span>{client__name}</span>
-              <span> {client__profession}</span>
+              <span> {` / ${client__profession}`}</span>
             </p>
             <p>
               <strong>{company__name}</strong>
