@@ -18,7 +18,7 @@ function Slider() {
   });
 
   return (
-    <Carousel infiniteLoop>
+    <Carousel autoPlay infiniteLoop>
       {projects}
     </Carousel>
   );

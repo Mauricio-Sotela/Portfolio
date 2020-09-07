@@ -1,7 +1,7 @@
 {
   "name": "porfolio",
   "version": "0.1.0",
-  "homepage": "https://mauricio-sotela.github.io/portfolio/",
+  "homepage": "https://mauricio-sotela.github.io/Portfolio/",
   "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
