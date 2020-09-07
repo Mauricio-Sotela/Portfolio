@@ -48,7 +48,9 @@ function FullProject(props) {
           </div>
           <div className="right">
             <div className="img__container">
-              <img alt="img" src={site__img} />
+              <a href={site__img} target="blank">
+                <img alt="img" src={site__img} />
+              </a>
             </div>
           </div>
         </div>
