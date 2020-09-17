@@ -38,7 +38,7 @@ function FullProject(props) {
             )}
 
             <h2>{project__name}</h2>
-            <div className="line"></div>
+           
             <p>{description}</p>
             <button>
               <a href={url} target="blank">

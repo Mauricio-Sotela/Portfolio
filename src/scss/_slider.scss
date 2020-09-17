@@ -15,7 +15,7 @@
       justify-content: center;
       margin-top: 5rem;
       .componentContainer__additional {
-        width: 65%;
+        width: 100%;
       }
       .componentContainer__description {
         display: none;
@@ -34,7 +34,7 @@
 }
 .carousel-root {
   outline: none;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   .carousel {
     /* position: relative; */
@@ -50,9 +50,13 @@
     .componentContainer
     .componentContainer__content
     .componentContainer__additional {
-    width: 100%;
+    width: 200%;
+    overflow: hidden;
   }
   .legend {
     display: none;
+  }
+  .carousel-root {
+    width: 100%;
   }
 }
