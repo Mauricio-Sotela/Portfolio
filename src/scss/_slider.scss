@@ -2,7 +2,7 @@
   padding: 2rem 0;
   width: 100%;
   height: fit-content;
-  height: calc(100vh - 6.4rem);
+  min-height: calc(100vh - 6.4rem);
   .componentContainer {
     width: 100%;
     justify-content: center;

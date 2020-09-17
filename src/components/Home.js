@@ -23,7 +23,7 @@ export default function Home(props) {
           Collect Contact details for future ongoing relation.”"
               button={
                 <Button
-                  title="Mauricio GitHub"
+                  title="GitHub"
                   bgColor="white"
                   hoverColor="black"
                   textColor="red"
