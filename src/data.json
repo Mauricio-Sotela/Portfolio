@@ -58,56 +58,38 @@
   "projects": [
     {
       "id": "01",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_youtebe.png?token=ANITQNKWJTJZ7GRNIXVDXEK7LIDL6",
-      "label": "YouTube_clone",
-      "url": "https://github.com/Mauricio-Sotela/YouTube"
+      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Storege/master/projects_picts/mauricio-sotela.github.io_shopping_car_.png?token=ANITQNLKOTYEPR5GRDCPMR27NSGPG",
+      "label": "Shopping-card",
+      "url": "https://mauricio-sotela.github.io/shopping-card/"
     },
     {
       "id": "02",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/Weather_app.png?token=ANITQNO2CGJQJNHWODVIYIC7LIDPQ",
+      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Storege/master/projects_picts/mauricio-sotela.github.io_weather_app_.png?token=ANITQNMCI3UVLA3S7NION2C7NSG3C",
       "label": "Weather_app",
-      "url": "https://img.freepik.com/free-vector/sport-background-with-abstract-shapes_52683-18504.jpg?size=626&ext=jpg"
+      "url": "https://mauricio-sotela.github.io/weather_app/"
     },
     {
       "id": "03",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_media_quary.png?token=ANITQNIK5TQCUJHXVIKACFC7LID42",
-      "label": "Media_query.",
-      "url": "https://github.com/Mauricio-Sotela/media_query"
+      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Storege/master/projects_picts/mauricio-sotela.github.io_Instagram-react_.png?token=ANITQNIKH2NCBNSJXPP64H27NSHDM",
+      "label": "Instagram-clone",
+      "url": "https://mauricio-sotela.github.io/Instagram-react/"
     },
     {
       "id": "04",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_airbnb.png?token=ANITQNMK5KBRDYE4QWSZESS7LIDZ6",
-      "label": "Airbnb",
-      "url": "https://github.com/Mauricio-Sotela/Airbnb_copy"
+      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Storege/master/projects_picts/mauricio-sotela.github.io_Online_Shop_.png?token=ANITQNLC4ES66CRCLIAKWMC7NSHMG",
+      "label": "Online-shop",
+      "url": "https://mauricio-sotela.github.io/Online_Shop/"
     },
     {
       "id": "05",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/projects_Bootstrap.png?token=ANITQNKF4FDHEHXI5BMXUB27LIDW4",
-      "label": "Bootstrap",
-      "url": "https://mauricio-sotela.github.io/Bootstrap/"
-    },
-    {
-      "id": "06",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/periodic_table.png?token=ANITQNJLMHXTWXLSQNHUUHC7LIDUE",
-      "label": "Periodic_table",
-      "url": "https://github.com/Mauricio-Sotela/periodic_Table"
-    },
-    {
-      "id": "07",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/Chest.png?token=ANITQNO42UBIQM3U5T3GWWK7LIEAM",
-      "label": "Chest",
-      "url": "https://github.com/Mauricio-Sotela/chest"
-    },
-    {
-      "id": "08",
-      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Portfolio/master/src/img/projects/calculator.png?token=ANITQNLMEIF6TAQ2WDOMSRC7LIDIW",
-      "label": "Calculator",
-      "url": "https://github.com/Mauricio-Sotela/calculator"
+      "img": "https://raw.githubusercontent.com/Mauricio-Sotela/Storege/master/projects_picts/mauricio-sotela.github.io_vehicules_.png?token=ANITQNIAUYJOAOZ4JTLPVO27NSHRY",
+      "label": "Vehicles",
+      "url": "https://mauricio-sotela.github.io/vehicules/"
     }
   ],
   "fullProjects": [
     {
-      "logo": "https://icon-library.com/images/whatsapp-icon-download/whatsapp-icon-download-11.jpg",
+      "logo": "",
       "project__name": "Whatsapp",
       "description": "Boosted is the world’s leading electric skateboard retailer. We created the streamlined UI experience they’d been missing.",
       "site__img": "https://img.icons8.com/cotton/2x/whatsapp--v3.png",

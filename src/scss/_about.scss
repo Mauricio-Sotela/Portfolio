@@ -1,5 +1,6 @@
 .about__container{
+    padding: 3rem 0;
     width: 100%;
-    height:calc(100vh - 6.4rem);
-    background-color: black;
+    min-height:calc(100vh - 6.4rem);
+    background-color:rgb(105, 105, 105);
 }

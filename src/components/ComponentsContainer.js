@@ -17,7 +17,7 @@ function ComponentsContainer(props) {
           <div className="componentContainer__description">
             {props.description}
           </div>
-          <div className="componentContainer__additional">
+          <div className="componentContainer__additional video">
             <button>{props.simpleModal}</button>
           </div>
         </div>

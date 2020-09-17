@@ -28,7 +28,7 @@ function FullProject(props) {
           <div className="left">
             {logo === "" ? (
               <svg height="10%" width="50%">
-                <text x="0" y="20" fill="red" fontSize="4rem" fontWeight="bold">
+                <text x="0" y="40" fill="red" fontSize="4rem" fontWeight="bold">
                   JMSP
                 </text>
                 Sorry, your browser does not support inline SVG.

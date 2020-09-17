@@ -8,7 +8,7 @@ function Footer() {
           <a
             className="icoLinkedin"
             target="blank"
-            href="https://www.linkedin.com/in/jos%C3%A9-mauricio-sotela-prendergast-524762188/"
+            href="https://www.linkedin.com/in/jos%C3%A9-sotela/"
             title="Linkedin"
           >
             <i className="fab fa-linkedin"></i>
@@ -36,7 +36,7 @@ function Footer() {
           </a>
         </li>
 
-        <li>
+        {/* <li>
           <a
             className="icoFacebook"
             target="blank"
@@ -56,7 +56,7 @@ function Footer() {
           >
             <i className="fab fa-instagram"></i>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

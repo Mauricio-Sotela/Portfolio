@@ -1,9 +1,10 @@
 .skills__container {
   width: 100%;
   min-height: calc(100vh - 6.4rem);
-  background-color: black;
+  background-color: rgba(105, 105, 105, 0.411);
+  padding: 3rem 0 1rem 0;
   .componentContainer__title {
-    padding-top: 6rem;
+    padding-top: 2rem;
   }
   .componentContainer__content {
     flex-direction: column;
