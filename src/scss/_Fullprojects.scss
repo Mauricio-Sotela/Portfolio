@@ -8,7 +8,7 @@
   .fullProject__info {
     background-color: rgb(224, 224, 224);
     width: 100%;
-    height: 60%;
+    height: 100%;
     .container {
       height: 100%;
       display: flex;
@@ -68,7 +68,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40%;
+    // height: 40%;
+    padding: 1rem 0;
     text-align: center;
     background-color: rgb(149, 147, 147);
     .container {
