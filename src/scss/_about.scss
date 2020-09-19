@@ -1,6 +1,16 @@
-.about__container{
-    padding: 3rem 0;
-    width: 100%;
-    min-height:calc(100vh - 6.4rem);
-    background-color:rgba(37, 184, 171, 0.733);
+.about__container {
+  padding: 3rem 0;
+  width: 100%;
+  min-height: calc(100vh - 6.4rem);
+  background-color: rgba(16, 174, 242, 0.801);
+  .componentContainer .componentContainer__title {
+    color: black;
+    padding-top: 8rem;
+  }
+  .componentContainer
+    .componentContainer__content{
+        margin-top: 10rem;
+    .componentContainer__description {
+    color: black;
+  }}
 }

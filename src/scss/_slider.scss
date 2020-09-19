@@ -8,6 +8,7 @@
     justify-content: center;
     .componentContainer__title {
       padding-top: 1rem;
+      color: black;
     }
     .componentContainer__content {
       display: flex;
@@ -23,9 +24,11 @@
     }
   }
   .legend {
+    font-size: 2rem !important;
     transition: all .5s ease-in-out;
     span{
-      color: rgba(255, 1, 1, 0.808);
+      color: rgb(255, 238, 5);
+      letter-spacing: 3px;
     }
     &:hover{
       border:  1px solid rgba(255, 0, 0, 0.603);

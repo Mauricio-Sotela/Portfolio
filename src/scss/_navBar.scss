@@ -21,15 +21,17 @@
     li {
       a {
         transition: all 0.5s ease;
-        padding: 0.3rem;
+        padding: 0.6rem;
         border: 2px solid transparent;
-        color: rgb(239, 13, 51);
+        color: rgb(255, 255, 255);
         font-size: 2.3rem;
         &:hover {
           border: 2px solid rgb(239, 13, 51);
+          border-radius: .6rem;
         }
         &:focus {
           border: 2px solid rgb(239, 13, 51);
+          border-radius: .6rem;
         }
       }
     }

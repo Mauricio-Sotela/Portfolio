@@ -17,7 +17,6 @@
         flex-direction: column;
         width: 50%;
         height: 100%;
-        padding-left: 4rem;
         align-items: flex-start;
         justify-content: center;
         img {
@@ -34,7 +33,6 @@
         }
         p {
           font-size: 2rem;
-          max-width: 70%;
           font-size: 2.2rem;
         }
         button {
@@ -77,14 +75,14 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-    }
+    
     .avatar {
       width: 10rem;
       height: 10rem;
     }
     .client {
-      max-width: 50%;
-      margin-top: 4rem;
+      max-width: 100%;
+      margin-top: 0rem;
       .testimony {
         position: relative;
         font-size: 3rem;
@@ -104,7 +102,7 @@
           content: "\201D";
           font-size: 5rem;
         }
-      }
+      }}
     }
   }
 }
@@ -125,8 +123,9 @@
   }
   .fullProject .fullProject__comment .client {
     max-width: 100%;
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
+
   .fullProject .fullProject__comment .client .testimony {
     width: 100%;
     padding: 1rem;
