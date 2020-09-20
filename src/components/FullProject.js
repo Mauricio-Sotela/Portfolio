@@ -27,7 +27,7 @@ function FullProject(props) {
         <div className="container">
           <div className="left">
             {logo === "" ? (
-              <svg height="10%" width="50%">
+              <svg height="15%" width="50%">
                 <text x="0" y="40" fill="red" fontSize="4rem" fontWeight="bold">
                   JMSP
                 </text>
