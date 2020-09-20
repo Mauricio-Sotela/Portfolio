@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-color: rgba(16, 174, 242, 0.438);
+  background: linear-gradient(65deg, #a8c1c5, #828d8f);
   font-family: "th", sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden;
@@ -58,7 +58,9 @@ h4 {
 }
 
 p {
+  // letter-spacing: 1px;
   font-size: 2.6rem;
+  
 }
 
 a:hover {

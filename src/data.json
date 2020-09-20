@@ -99,9 +99,9 @@
       "company__name": "JMSP",
       "client__testimony": "Creating this app I got some experience on react by using different npm packages.",
       "url": "https://mauricio-sotela.github.io/weather_app/",
-      "color1": "#02aab0 ",
-      "color2": "#00cdac",
-      "color3": "white"
+      "color1": "#a8c1c5",
+      "color2": "#828d8f",
+      "color3": "#c7d9db"
     },
     {"id":2,
       "logo": "",
@@ -114,9 +114,9 @@
       "company__name": "JMSP",
       "client__testimony": "A web site created with vanilla JavaScript, HTML and CSS.",
       "url": "https://mauricio-sotela.github.io/vehicules/",
-      "color1": "#2193b0 ",
-      "color2": "#6dd5ed",
-      "color3": "white"
+      "color1": "#828d8f",
+      "color2": "#a8c1c5",
+      "color3": "#c7d9db"
     }
   ]
 }
