@@ -18,8 +18,8 @@ function About() {
             button={
               <Button
                 title="Contact Me"
-                bgColor="white"
-                hoverColor="black"
+                bgColor="rgba(0,0,0,.8)"
+                hoverColor="white"
                 textColor="red"
                 to="/contact"
                 target=""

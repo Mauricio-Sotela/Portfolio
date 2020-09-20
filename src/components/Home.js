@@ -24,8 +24,8 @@ export default function Home(props) {
               button={
                 <Button
                   title="GitHub"
-                  bgColor="white"
-                  hoverColor="black"
+                  bgColor="rgba(0,0,0,.8)"
+                  hoverColor="white"
                   textColor="red"
                   to="https://github.com/Mauricio-Sotela"
                   target="_blank"

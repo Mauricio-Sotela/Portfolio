@@ -88,7 +88,7 @@
     }
   ],
   "fullProjects": [
-    {
+    {"id":1,
       "logo": "",
       "project__name": "Weather-App",
       "description": "This weather app was created with react, here you can find find information about the weather in many different cities around the world",
@@ -103,7 +103,7 @@
       "color2": "#00cdac",
       "color3": "white"
     },
-    {
+    {"id":2,
       "logo": "",
       "project__name": "Vehicles",
       "description": "Here you can find information about different kinds of vehicles, you also can filter your search depending on the vehicle type.",

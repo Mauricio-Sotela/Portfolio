@@ -40,8 +40,8 @@ function FullProject(props) {
             <h2>{project__name}</h2>
            
             <p>{description}</p>
-            <button>
-              <a href={url} target="blank">
+            <button className='f-btn'>
+              <a className='f-anc' href={url} target="blank">
                 Go to the page
               </a>
             </button>

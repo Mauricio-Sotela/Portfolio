@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
     width: "90%",
-    backgroundColor: "rgba(238, 238, 238);",
+    backgroundColor: "rgba(238, 238, 238)",
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
   },
@@ -47,9 +47,11 @@ export default function SimpleModal(props) {
 
   return (
     <div>
-      <button type="button" onClick={handleOpen}>
-        {props.icon && props.icon}
-      </button>
+      <div>
+        <button  onClick={handleOpen}>
+          {props.icon && props.icon}
+        </button>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}

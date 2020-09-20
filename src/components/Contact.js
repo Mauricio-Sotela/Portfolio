@@ -10,7 +10,7 @@ export default function Contact(props) {
   });
 
   return (
-    <div class="contact">
+    <div className="contact">
       <div className="container">
         <div className="contact-title">
           <h3>CONTACT</h3>
