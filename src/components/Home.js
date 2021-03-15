@@ -41,7 +41,7 @@ export default function Home(props) {
           }
         />
         <div className="home__video">
-          <Video href="https://assets.mixkit.co/videos/preview/mixkit-young-engineers-working-on-server-room-23161-large.mp4" />
+          <Video href="https://cdn.videvo.net/videvo_files/video/free/2015-10/small_watermarked/Typing_dark_05_Videvo_preview.webm" />
         </div>
       </div>
     </div>
